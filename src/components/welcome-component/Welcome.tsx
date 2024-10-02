@@ -1,11 +1,14 @@
-import { AppDescription } from "../app-description/AppDescription";
-import { PageTitle } from "../interface-title/InterfaceTitle";
+import SectionTitle from "../section-title/SectionTitle";
 
 export const Welcome = () => {
   return (
     <div className="h-dvh flex flex-col justify-center gap-8">
-      <PageTitle />
-      <AppDescription />
+      <SectionTitle
+        title="Interface Mocker"
+        subtitle="InterfaceMocker is a powerful TypeScript tool that generates mock
+        objects from interfaces. It automates test data creation, speeds up
+        development, and ensures type safety for unit testing and prototyping."
+      />
       <div className="flex justify-between items-center text-sm text-gray-500">
         <span>Made with React</span>
         <a

@@ -8,7 +8,7 @@ interface SectionTitleProps {
 const SectionTitle: React.FC<SectionTitleProps> = ({ title, subtitle }) => {
   return (
     <div className="flex flex-col items-center justify-center text-center px-4 pb-8">
-      <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
+      <h2 className="text-4xl md:text-6xl font-bold tracking-tight">
         <span className="bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
           {title}
         </span>
