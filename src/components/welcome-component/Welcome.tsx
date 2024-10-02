@@ -5,8 +5,8 @@ export const Welcome = () => {
     <div className="h-dvh flex flex-col justify-center gap-8">
       <SectionTitle
         title="Interface Mocker"
-        subtitle="InterfaceMocker is a powerful TypeScript tool that generates mock
-        objects from interfaces. It automates test data creation, speeds up
+        subtitle="InterfaceMocker is a powerful TypeScript tool that generates mock JSON 
+        objects from TS interfaces. It automates test data creation, speeds up
         development, and ensures type safety for unit testing and prototyping."
       />
       <div className="flex justify-between items-center text-sm text-gray-500">
