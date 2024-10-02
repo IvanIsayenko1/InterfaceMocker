@@ -1,5 +1,5 @@
 # InterfaceMocker
-InterfaceMocker is a lightweight TypeScript library that simplifies the creation of mock objects for interfaces. It automates the process of generating mocks, allowing developers to easily simulate the behavior of any TypeScript interface. This is especially useful in unit testing, where mocking dependencies is key to isolating components and testing them effectively. With InterfaceMocker, you can customize the behavior of mock methods, reduce boilerplate code, and ensure cleaner, more maintainable test code. The library integrates seamlessly with existing TypeScript projects, making it a powerful tool for test-driven development (TDD) and behavior-driven development (BDD).
+This app generates a JSON object based on a provided TypeScript interface. By analyzing the structure of the interface, it automatically creates a mock object with the appropriate fields and types, streamlining the process of generating test data and simplifying development.
 
 # About
 InterfaceMocker is made with
@@ -8,5 +8,8 @@ InterfaceMocker is made with
 - Tailwind
 - Monaco editor
 - Jabber
-
+- Vite
+  
+This stack ensures a smooth, scalable development workflow with excellent performance and maintainability.
 It is designed to have minimal overhead in terms of complexity, performance impact, and dependency size.
+
