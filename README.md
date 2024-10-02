@@ -1,50 +1,12 @@
-# React + TypeScript + Vite
+# InterfaceMocker
+InterfaceMocker is a lightweight TypeScript library that simplifies the creation of mock objects for interfaces. It automates the process of generating mocks, allowing developers to easily simulate the behavior of any TypeScript interface. This is especially useful in unit testing, where mocking dependencies is key to isolating components and testing them effectively. With InterfaceMocker, you can customize the behavior of mock methods, reduce boilerplate code, and ensure cleaner, more maintainable test code. The library integrates seamlessly with existing TypeScript projects, making it a powerful tool for test-driven development (TDD) and behavior-driven development (BDD).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# About
+InterfaceMocker is made with
+- React
+- TypeScript
+- Tailwind
+- Monaco editor
+- Jabber
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+It is designed to have minimal overhead in terms of complexity, performance impact, and dependency size.
