@@ -1,9 +1,9 @@
 {
-  "name": "interfacemocker",
+  "name": "interface-mocker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://IvanIsayenko1.github.io/InterfaceMocker",
+  "homepage": "https://IvanIsayenko1.github.io/interface-mocker",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
