@@ -12,7 +12,7 @@ export const Welcome = () => {
       <div className="flex justify-between items-center text-sm text-gray-500">
         <span>Made with React</span>
         <a
-          href="https://github.com/IvanIsayenko1/InterfaceMocker"
+          href="https://github.com/IvanIsayenko1/interface-mocker"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 hover:text-gray-300 transition-colors"
